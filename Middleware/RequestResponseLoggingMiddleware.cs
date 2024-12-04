@@ -5,8 +5,8 @@ public class RequestResponseLoggingMiddleware
 
     public RequestResponseLoggingMiddleware(RequestDelegate next, ILogger<RequestResponseLoggingMiddleware> logger)
     {
-        _next = next;
-        _logger = logger;
+       // _next = next;
+     //   _logger = logger;
     }
 
     public async Task Invoke(HttpContext context)
